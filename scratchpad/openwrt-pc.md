@@ -1,3 +1,11 @@
+---
+title: "OpenWrt in PC"
+linkTitle: "OpenWrt-PC"
+# date: 
+description:  Installing OpenWrt in an old laptop to try things out
+---
+
+
 # Guide
 
 ## Create bootable usb
@@ -6,7 +14,7 @@
 - Create a new fat32 partition in the remaining usb drive space
 - copy openwrt image into that partition
 
-## Flash opwnwrt
+## Flash opewnwrt
 
 - Boot up ubuntu
 - use ubuntu's disk utilities to prepare the hard drive if needed

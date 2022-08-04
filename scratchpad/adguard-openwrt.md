@@ -1,3 +1,10 @@
+---
+title: "AdGuard in OpenWrt"
+linkTitle: "AdGuard in OpenWrt"
+# date: 
+description:  Installing AdGuard in old router
+---
+
 # AdGuard in OpenWRT
 
 ## Dedicated old OpenWRT as ad blocker
@@ -59,7 +66,7 @@ curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/s
 
 example of how `/etc/config/network` should look like (use your own values)
 
-```
+```toml
 config interface 'lan'
         option type 'bridge'
         option ifname 'eth0.1 eth1'
