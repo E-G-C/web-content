@@ -6,16 +6,6 @@ date: 2023-10-17
 description: Things to keep handy
 
 ---
-# VSCode
-
-- [VSCode](#vscode)
-  - [Compact Folders](#compact-folders)
-  - [VSCode to no open last workspace](#vscode-to-no-open-last-workspace)
-  - [Duplicate profiles in VSCode](#duplicate-profiles-in-vscode)
-  - [Change VSCode UI font](#change-vscode-ui-font)
-  - [Select and replace all occurrences of a variable name](#select-and-replace-all-occurrences-of-a-variable-name)
-  - [Horizontal split](#horizontal-split)
-  - [Jupyter Notebook](#jupyter-notebook)
 
 ## Compact Folders
 
