@@ -1,3 +1,11 @@
+---
+title: "VS Code"
+linkTitle: "VS Code"
+date: 2023-10-17
+# weight: 100
+description: Things to keep handy
+
+---
 # VSCode
 
 - [VSCode](#vscode)
