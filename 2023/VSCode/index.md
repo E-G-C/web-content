@@ -4,13 +4,21 @@ linkTitle: "VS Code"
 date: 2023-10-17
 # weight: 100
 description: Things to keep handy
-
 ---
+
+## Auto save
+
+First of all and for you own good, enable the auto save feature in VSCode. To do
+so, either:
+
+- Go to `File > Auto Save` or
+- Press `Ctrl + Shift + P` and type `auto save` and select
+  `File: Toggle Auto Save` or
 
 ## Compact Folders
 
-In the File Explorer, we now render single child folders in a compact form. In
-such a form, single child folders will be compressed in a combined tree element.
+The File Explorer, renders single child folders in a compact form. In such a
+form, single child folders will be compressed in a combined tree element.
 
 Setting `explorer.compactFolders` controls this behavior. By default, this
 setting is turned on.
@@ -22,12 +30,13 @@ below
 
 `"window.restoreWindows": "none"`
 
-or modify the shortcut with the option ` -n` see the [documentation here]
+or modify the shortcut with the option `-n` see the [documentation here]
 (https://code.visualstudio.com/docs/editor/command-line) for example:
 
 ```cmd
 "C:\Program Files (x86)\Microsoft VS Code\Code.exe" -n
 ```
+
 or alternatively run VSCode with `code -n` see more
 [here](https://stackoverflow.com/questions/49692748/re-open-vscode-without-last-workspace-or-last-files)
 
@@ -51,7 +60,7 @@ same time.
 
 ## Select and replace all occurrences of a variable name
 
-This comes handy in Powershell where there isn't `F2` to refactor. To replace a
+This comes handy in PowerShell where there isn't `F2` to refactor. To replace a
 variable name in Visual Studio Code, you can follow these steps:
 
 - Select the variable you want to replace.
@@ -66,7 +75,7 @@ Ctrl + Shift + P (Command Palette) Toggle Vertical/Horizontal Editor Layout.
 
 ## Jupyter Notebook
 
-You can write and execute Powershell code in a Jupyter Notebook. To do so, you
+You can write and execute PowerShell code in a Jupyter Notebook. To do so, you
 need to install the extension `Polyglot Notebooks` then add a cell with the
 language `#!pwsh` (first line).
 
