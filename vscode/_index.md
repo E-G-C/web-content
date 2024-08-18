@@ -26,7 +26,7 @@ setting is turned on.
 ## VSCode to no open last workspace
 
 Do not open last workspace or windows, open the preferences, set the settings
-below
+below:
 
 `"window.restoreWindows": "none"`
 
